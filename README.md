@@ -26,6 +26,7 @@ Checking it Works!
 Todo
 ----
 
+* Nginx
 * Configure HTTPS
 * Email
     
