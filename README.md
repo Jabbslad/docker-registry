@@ -15,4 +15,10 @@ Running
 
     docker run -p 5000:5000 jabbslad/registry
     
+Todo
+----
+
+* Configure HTTPS
+* Email
+    
 More info: [https://github.com/docker/docker-registry](https://github.com/docker/docker-registry)
