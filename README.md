@@ -15,6 +15,14 @@ Running
 
     docker run -p 5000:5000 jabbslad/registry
     
+Checking it Works!
+------------------
+
+    docker pull busybox
+    docker tag busybox localhost:5000/busybox
+    docker push localhost:5000/busybox
+    docker run localhost:5000/busybox echo "hello"
+    
 Todo
 ----
 
