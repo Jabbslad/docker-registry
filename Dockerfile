@@ -1,4 +1,4 @@
-FROM registry
+FROM registry:0.8.0
 
 ADD config.yml /registry-conf/config.yml
 
